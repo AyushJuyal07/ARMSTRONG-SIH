@@ -23,9 +23,12 @@ void setup() {
 
 }
 
+
+
 void receieveData () { 
   while (Serial.available())
   { 
+    
     char c = Serial.read();
     if (c=='$') { 
       counterStart = true;
