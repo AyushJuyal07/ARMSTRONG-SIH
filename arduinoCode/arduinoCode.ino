@@ -8,6 +8,7 @@ Servo servoMiddle;
 Servo servoRing;
 Servo servoPinky;
 
+
 int valsRec [numOfValsRec];
 int stringLength = numOfValsRec * digitsPerValRec + 1; //$00000
 int counter = 0;
@@ -52,6 +53,7 @@ void receieveData () {
 
   }
 }
+
 
 void loop() {
   receieveData();
